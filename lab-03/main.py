@@ -1,6 +1,6 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QMainWindow
-from ui.rsa_ui import Ui_MainWindow
+from PyQt5.QtWidgets import QApplication, QMainWindow # type: ignore
+from ui.rsa_ui import Ui_MainWindow # type: ignore
 
 
 class MainApp(QMainWindow, Ui_MainWindow):
